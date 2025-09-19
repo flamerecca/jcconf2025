@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
 
 fun Application.module() {
     configureSerialization()
-    // configureDatabases()
+    configureDatabases()
     configureRouting()
-    r2dbcDatabases()
+    // r2dbcDatabases()
 }
